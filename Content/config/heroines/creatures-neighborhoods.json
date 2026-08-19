@@ -1,0 +1,139 @@
+{
+	// ============================================================
+	// HEROINES — Phase 2: The remaining eight neighborhoods.
+	// Naming rules: friendly, concrete, readable by an 8-year-old,
+	// upgrade name must be an obvious "fancier version" of base.
+	// IDs follow VCMI core config naming; any ID the console
+	// rejects on load becomes a GitHub issue (working agreement).
+	// ============================================================
+
+	// ---------- FLUTTERGROVE (was Rampart) ----------
+	"core:centaur" :          { "name" : { "singular" : "Fawn",                  "plural" : "Fawns" } },
+	"core:centaurCaptain" :   { "name" : { "singular" : "Ribbon Fawn",           "plural" : "Ribbon Fawns" } },
+	"core:dwarf" :            { "name" : { "singular" : "Acorn Gnome",           "plural" : "Acorn Gnomes" } },
+	"core:battleDwarf" :      { "name" : { "singular" : "Oak Gnome",             "plural" : "Oak Gnomes" } },
+	"core:woodElf" :          { "name" : { "singular" : "Butterfly Catcher",     "plural" : "Butterfly Catchers" } },
+	"core:grandElf" :         { "name" : { "singular" : "Butterfly Whisperer",   "plural" : "Butterfly Whisperers" } },
+	"core:pegasus" :          { "name" : { "singular" : "Moth Pony",             "plural" : "Moth Ponies" } },
+	"core:silverPegasus" :    { "name" : { "singular" : "Moonbeam Moth Pony",    "plural" : "Moonbeam Moth Ponies" } },
+	"core:dendroidGuard" :    { "name" : { "singular" : "Hugging Tree",          "plural" : "Hugging Trees" } },
+	"core:dendroidSoldier" :  { "name" : { "singular" : "Grandmother Willow",    "plural" : "Grandmother Willows" } },
+	"core:unicorn" :          { "name" : { "singular" : "Dream Deer",            "plural" : "Dream Deer" } },
+	"core:warUnicorn" :       { "name" : { "singular" : "Starlit Dream Deer",    "plural" : "Starlit Dream Deer" } },
+	"core:greenDragon" :      { "name" : { "singular" : "Very Gentle Caterpillar", "plural" : "Very Gentle Caterpillars" } },
+	"core:goldDragon" :       { "name" : { "singular" : "Luna Moth Queen",       "plural" : "Luna Moth Queens" } },
+
+	// ---------- SWEETSHOP LANE (was Tower) ----------
+	"core:gremlin" :          { "name" : { "singular" : "Kitchen Helper",        "plural" : "Kitchen Helpers" } },
+	"core:masterGremlin" :    { "name" : { "singular" : "Head Kitchen Helper",   "plural" : "Head Kitchen Helpers" } },
+	"core:stoneGargoyle" :    { "name" : { "singular" : "Sugar-Glass Bird",      "plural" : "Sugar-Glass Birds" } },
+	"core:obsidianGargoyle" : { "name" : { "singular" : "Licorice Bird",         "plural" : "Licorice Birds" } },
+	"core:stoneGolem" :       { "name" : { "singular" : "Shortbread Golem",      "plural" : "Shortbread Golems" } },
+	"core:ironGolem" :        { "name" : { "singular" : "Fudge Golem",           "plural" : "Fudge Golems" } },
+	"core:mage" :             { "name" : { "singular" : "Frosting Wizard",       "plural" : "Frosting Wizards" } },
+	"core:archMage" :         { "name" : { "singular" : "Grand Frosting Wizard", "plural" : "Grand Frosting Wizards" } },
+	"core:genie" :            { "name" : { "singular" : "Fizzy-Pop Genie",       "plural" : "Fizzy-Pop Genies" } },
+	"core:masterGenie" :      { "name" : { "singular" : "Root-Beer-Float Genie", "plural" : "Root-Beer-Float Genies" } },
+	"core:naga" :             { "name" : { "singular" : "Taffy Twirler",         "plural" : "Taffy Twirlers" } },
+	"core:nagaQueen" :        { "name" : { "singular" : "Grand Taffy Twirler",   "plural" : "Grand Taffy Twirlers" } },
+	"core:giant" :            { "name" : { "singular" : "Birthday-Cake Golem",   "plural" : "Birthday-Cake Golems" } },
+	"core:titan" :            { "name" : { "singular" : "Master Baker",          "plural" : "Master Bakers" } },
+
+	// ---------- CAMPFIRE HOLLOW (was Inferno) ----------
+	"core:imp" :              { "name" : { "singular" : "S'more Sprite",         "plural" : "S'more Sprites" } },
+	"core:familiar" :         { "name" : { "singular" : "Toasted S'more Sprite", "plural" : "Toasted S'more Sprites" } },
+	"core:gog" :              { "name" : { "singular" : "Ember Juggler",         "plural" : "Ember Jugglers" } },
+	"core:magog" :            { "name" : { "singular" : "Firework Juggler",      "plural" : "Firework Jugglers" } },
+	"core:hellHound" :        { "name" : { "singular" : "Warm Puppy",            "plural" : "Warm Puppies" } },
+	"core:cerberus" :         { "name" : { "singular" : "Pile of Puppies",       "plural" : "Piles of Puppies" } },
+	"core:demon" :            { "name" : { "singular" : "Marshmallow Roaster",   "plural" : "Marshmallow Roasters" } },
+	"core:hornedDemon" :      { "name" : { "singular" : "Chief Marshmallow Roaster", "plural" : "Chief Marshmallow Roasters" } },
+	"core:pitFiend" :         { "name" : { "singular" : "Chili Cook",            "plural" : "Chili Cooks" } },
+	"core:pitLord" :          { "name" : { "singular" : "Chili Cook-Off Champion", "plural" : "Chili Cook-Off Champions" } },
+	"core:efreet" :           { "name" : { "singular" : "Lantern Keeper",        "plural" : "Lantern Keepers" } },
+	"core:efreetSultan" :     { "name" : { "singular" : "Grand Lantern Keeper",  "plural" : "Grand Lantern Keepers" } },
+	"core:devil" :            { "name" : { "singular" : "Bonfire Buddy",         "plural" : "Bonfire Buddies" } },
+	"core:archDevil" :        { "name" : { "singular" : "Grand Bonfire Buddy",   "plural" : "Grand Bonfire Buddies" } },
+
+	// ---------- THE NIGHT GARDEN (was Necropolis) ----------
+	// Gentlest possible reading of the spooky town: autumn garden
+	// at dusk. Nothing undead — everything cozy-nocturnal.
+	"core:skeleton" :         { "name" : { "singular" : "Scarecrow",             "plural" : "Scarecrows" } },
+	"core:skeletonWarrior" :  { "name" : { "singular" : "Fancy Scarecrow",       "plural" : "Fancy Scarecrows" } },
+	"core:walkingDead" :      { "name" : { "singular" : "Pumpkin Pal",           "plural" : "Pumpkin Pals" } },
+	"core:zombie" :           { "name" : { "singular" : "Prize Pumpkin Pal",     "plural" : "Prize Pumpkin Pals" } },
+	"core:wight" :            { "name" : { "singular" : "Dandelion Puff",        "plural" : "Dandelion Puffs" } },
+	"core:wraith" :           { "name" : { "singular" : "Wishing Puff",          "plural" : "Wishing Puffs" } },
+	"core:vampire" :          { "name" : { "singular" : "Fruit Bat",             "plural" : "Fruit Bats" } },
+	"core:vampireLord" :      { "name" : { "singular" : "Orchard Fruit Bat",     "plural" : "Orchard Fruit Bats" } },
+	"core:lich" :             { "name" : { "singular" : "Autumn Gardener",       "plural" : "Autumn Gardeners" } },
+	"core:powerLich" :        { "name" : { "singular" : "Head Autumn Gardener",  "plural" : "Head Autumn Gardeners" } },
+	"core:blackKnight" :      { "name" : { "singular" : "Moonlight Rider",       "plural" : "Moonlight Riders" } },
+	"core:dreadKnight" :      { "name" : { "singular" : "Midnight Rider",        "plural" : "Midnight Riders" } },
+	"core:boneDragon" :       { "name" : { "singular" : "Driftwood Dragon",      "plural" : "Driftwood Dragons" } },
+	"core:ghostDragon" :      { "name" : { "singular" : "Morning-Mist Dragon",   "plural" : "Morning-Mist Dragons" } },
+
+	// ---------- MUSIC QUARTER (was Dungeon) ----------
+	"core:troglodyte" :         { "name" : { "singular" : "Little Drummer",      "plural" : "Little Drummers" } },
+	"core:infernalTroglodyte" : { "name" : { "singular" : "Big Bass Drummer",    "plural" : "Big Bass Drummers" } },
+	"core:harpy" :            { "name" : { "singular" : "Songbird",              "plural" : "Songbirds" } },
+	"core:harpyHag" :         { "name" : { "singular" : "Opera Songbird",        "plural" : "Opera Songbirds" } },
+	"core:beholder" :         { "name" : { "singular" : "Disco-Ball Friend",     "plural" : "Disco-Ball Friends" } },
+	"core:evilEye" :          { "name" : { "singular" : "Mirror-Ball Friend",    "plural" : "Mirror-Ball Friends" } },
+	"core:medusa" :           { "name" : { "singular" : "Harpist",               "plural" : "Harpists" } },
+	"core:medusaQueen" :      { "name" : { "singular" : "Concert Harpist",       "plural" : "Concert Harpists" } },
+	"core:minotaur" :         { "name" : { "singular" : "Tuba Player",           "plural" : "Tuba Players" } },
+	"core:minotaurKing" :     { "name" : { "singular" : "Sousaphone Player",     "plural" : "Sousaphone Players" } },
+	"core:manticore" :        { "name" : { "singular" : "Jazz Cat",              "plural" : "Jazz Cats" } },
+	"core:scorpicore" :       { "name" : { "singular" : "Scat-Singing Jazz Cat", "plural" : "Scat-Singing Jazz Cats" } },
+	"core:redDragon" :        { "name" : { "singular" : "Kazoo Dragon",          "plural" : "Kazoo Dragons" } },
+	"core:blackDragon" :      { "name" : { "singular" : "Pipe-Organ Dragon",     "plural" : "Pipe-Organ Dragons" } },
+
+	// ---------- CRAFT DISTRICT (was Stronghold) ----------
+	"core:goblin" :           { "name" : { "singular" : "Crafting Buddy",        "plural" : "Crafting Buddies" } },
+	"core:hobgoblin" :        { "name" : { "singular" : "Senior Crafting Buddy", "plural" : "Senior Crafting Buddies" } },
+	"core:wolfRider" :        { "name" : { "singular" : "Puppy Rider",           "plural" : "Puppy Riders" } },
+	"core:wolfRaider" :       { "name" : { "singular" : "Sheepdog Rider",        "plural" : "Sheepdog Riders" } },
+	"core:orc" :              { "name" : { "singular" : "Potter",                "plural" : "Potters" } },
+	"core:orcChieftain" :     { "name" : { "singular" : "Master Potter",         "plural" : "Master Potters" } },
+	"core:ogre" :             { "name" : { "singular" : "Knitter",               "plural" : "Knitters" } },
+	"core:ogreMage" :         { "name" : { "singular" : "Speed Knitter",         "plural" : "Speed Knitters" } },
+	"core:roc" :              { "name" : { "singular" : "Origami Crane",         "plural" : "Origami Cranes" } },
+	"core:thunderbird" :      { "name" : { "singular" : "Giant Origami Crane",   "plural" : "Giant Origami Cranes" } },
+	"core:cyclops" :          { "name" : { "singular" : "Kiln Keeper",           "plural" : "Kiln Keepers" } },
+	"core:cyclopsKing" :      { "name" : { "singular" : "Master Kiln Keeper",    "plural" : "Master Kiln Keepers" } },
+	"core:behemoth" :         { "name" : { "singular" : "Quilt Bear",            "plural" : "Quilt Bears" } },
+	"core:ancientBehemoth" :  { "name" : { "singular" : "Heirloom Quilt Bear",   "plural" : "Heirloom Quilt Bears" } },
+
+	// ---------- TIDEWHISPER COVE (was Fortress) ----------
+	"core:gnoll" :            { "name" : { "singular" : "Sandcastle Builder",    "plural" : "Sandcastle Builders" } },
+	"core:gnollMarauder" :    { "name" : { "singular" : "Sandcastle Architect",  "plural" : "Sandcastle Architects" } },
+	"core:lizardman" :        { "name" : { "singular" : "Tide-Pool Scout",       "plural" : "Tide-Pool Scouts" } },
+	"core:lizardWarrior" :    { "name" : { "singular" : "Tide-Pool Ranger",      "plural" : "Tide-Pool Rangers" } },
+	"core:serpentFly" :       { "name" : { "singular" : "Skimmer Dragonfly",     "plural" : "Skimmer Dragonflies" } },
+	"core:dragonFly" :        { "name" : { "singular" : "Rainbow Skimmer",       "plural" : "Rainbow Skimmers" } },
+	"core:basilisk" :         { "name" : { "singular" : "Beach Turtle",          "plural" : "Beach Turtles" } },
+	"core:greaterBasilisk" :  { "name" : { "singular" : "Great Beach Turtle",    "plural" : "Great Beach Turtles" } },
+	"core:gorgon" :           { "name" : { "singular" : "Sea Cow",               "plural" : "Sea Cows" } },
+	"core:mightyGorgon" :     { "name" : { "singular" : "Majestic Sea Cow",      "plural" : "Majestic Sea Cows" } },
+	"core:wyvern" :           { "name" : { "singular" : "Pelican Pal",           "plural" : "Pelican Pals" } },
+	"core:wyvernMonarch" :    { "name" : { "singular" : "Pelican Postmaster",    "plural" : "Pelican Postmasters" } },
+	"core:hydra" :            { "name" : { "singular" : "Octopus Friend",        "plural" : "Octopus Friends" } },
+	"core:chaosHydra" :       { "name" : { "singular" : "Party Octopus",         "plural" : "Party Octopuses" } },
+
+	// ---------- STARLIGHT OBSERVATORY (was Conflux) ----------
+	"core:pixie" :            { "name" : { "singular" : "Firefly",               "plural" : "Fireflies" } },
+	"core:sprite" :           { "name" : { "singular" : "Glowing Firefly",       "plural" : "Glowing Fireflies" } },
+	"core:airElemental" :     { "name" : { "singular" : "Breeze Friend",         "plural" : "Breeze Friends" } },
+	"core:stormElemental" :   { "name" : { "singular" : "Kite Friend",           "plural" : "Kite Friends" } },
+	"core:waterElemental" :   { "name" : { "singular" : "Puddle Friend",         "plural" : "Puddle Friends" } },
+	"core:iceElemental" :     { "name" : { "singular" : "Snowflake Friend",      "plural" : "Snowflake Friends" } },
+	"core:fireElemental" :    { "name" : { "singular" : "Campfire Spark",        "plural" : "Campfire Sparks" } },
+	"core:energyElemental" :  { "name" : { "singular" : "Sparkler",              "plural" : "Sparklers" } },
+	"core:earthElemental" :   { "name" : { "singular" : "Pebble Friend",         "plural" : "Pebble Friends" } },
+	"core:magmaElemental" :   { "name" : { "singular" : "Geode Friend",          "plural" : "Geode Friends" } },
+	"core:psychicElemental" : { "name" : { "singular" : "Daydream",              "plural" : "Daydreams" } },
+	"core:magicElemental" :   { "name" : { "singular" : "Shooting Star",         "plural" : "Shooting Stars" } },
+	"core:firebird" :         { "name" : { "singular" : "Comet Bird",            "plural" : "Comet Birds" } },
+	"core:phoenix" :          { "name" : { "singular" : "Aurora Bird",           "plural" : "Aurora Birds" } }
+}

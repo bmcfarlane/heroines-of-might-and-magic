@@ -1,0 +1,21 @@
+{
+	// ============================================================
+	// HEROINES — Phase 2: Neutral map creatures ("path friends").
+	// goldGolem and azureDragon already converted in Phase 1
+	// (creatures.json) — not repeated here.
+	// ============================================================
+
+	"core:peasant" :      { "name" : { "singular" : "Neighbor Kid",          "plural" : "Neighbor Kids" } },
+	"core:halfling" :     { "name" : { "singular" : "Picnic Guest",          "plural" : "Picnic Guests" } },
+	"core:boar" :         { "name" : { "singular" : "Truffle Pig",           "plural" : "Truffle Pigs" } },
+	"core:rogue" :        { "name" : { "singular" : "Hide-and-Seek Champ",   "plural" : "Hide-and-Seek Champs" } },
+	"core:mummy" :        { "name" : { "singular" : "Blanket-Wrapped Friend","plural" : "Blanket-Wrapped Friends" } },
+	"core:nomad" :        { "name" : { "singular" : "Pen Pal",               "plural" : "Pen Pals" } },
+	"core:sharpshooter" : { "name" : { "singular" : "Champion Bubble Blower","plural" : "Champion Bubble Blowers" } },
+	"core:troll" :        { "name" : { "singular" : "Bridge Keeper",         "plural" : "Bridge Keepers" } },
+	"core:enchanter" :    { "name" : { "singular" : "Party Magician",        "plural" : "Party Magicians" } },
+	"core:diamondGolem" : { "name" : { "singular" : "Rock-Candy Helper",     "plural" : "Rock-Candy Helpers" } },
+	"core:faerieDragon" : { "name" : { "singular" : "Ribbon Dragon",         "plural" : "Ribbon Dragons" } },
+	"core:rustDragon" :   { "name" : { "singular" : "Cinnamon Dragon",       "plural" : "Cinnamon Dragons" } },
+	"core:crystalDragon" :{ "name" : { "singular" : "Prism Dragon",          "plural" : "Prism Dragons" } }
+}

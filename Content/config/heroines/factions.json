@@ -1,29 +1,17 @@
 {
 	// ============================================================
-	// HEROINES — The seven factions become seven neighborhoods.
-	// Phase 1 renames the flagship; the rest follow the same
-	// pattern (see ROADMAP.md for the full mapping).
+	// HEROINES — The NINE factions become nine neighborhoods.
+	// (Phase 1 shipped with only seven; Inferno and Necropolis
+	//  were missing. Fixed in Phase 2 — see PROJECT_PLAN.md.)
 	// ============================================================
 
-	"core:castle" : {
-		"name" : "Meadowbrook"
-	},
-	"core:rampart" : {
-		"name" : "Fluttergrove"
-	},
-	"core:tower" : {
-		"name" : "Sweetshop Lane"
-	},
-	"core:fortress" : {
-		"name" : "Tidewhisper Cove"
-	},
-	"core:stronghold" : {
-		"name" : "Craft District"
-	},
-	"core:conflux" : {
-		"name" : "Starlight Observatory"
-	},
-	"core:dungeon" : {
-		"name" : "Music Quarter"
-	}
+	"core:castle" :     { "name" : "Meadowbrook" },
+	"core:rampart" :    { "name" : "Fluttergrove" },
+	"core:tower" :      { "name" : "Sweetshop Lane" },
+	"core:inferno" :    { "name" : "Campfire Hollow" },
+	"core:necropolis" : { "name" : "The Night Garden" },
+	"core:dungeon" :    { "name" : "Music Quarter" },
+	"core:stronghold" : { "name" : "Craft District" },
+	"core:fortress" :   { "name" : "Tidewhisper Cove" },
+	"core:conflux" :    { "name" : "Starlight Observatory" }
 }
