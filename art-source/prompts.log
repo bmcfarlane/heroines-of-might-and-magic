@@ -1,0 +1,20 @@
+# HEROINES — prompts.log
+# The lab notebook. RULES:
+#  - An entry is added ONLY when an image is ACCEPTED into art-source/.
+#  - Paste the prompt EXACTLY as sent to the generator. No paraphrasing.
+#  - Rerolled prompts don't get logged; only the winner does.
+#  - Format below. Future-us regenerates characters from these.
+
+=====================================================================
+ID:        P01
+ASSET:     Marigold — hero portrait master
+FILE:      P01-marigold-portrait-master.png
+DATE:      2026-08-18
+GENERATOR: ChatGPT image generation
+BY:        Bryan
+STATUS:    ACCEPTED (transparency verified: true alpha; readability
+           verified at 58x64 and 48x32 by Claude QA)
+PROMPT:
+  [BRYAN: paste your exact prompt here from ChatGPT history — verbatim,
+   including the style block if you used one]
+=====================================================================

@@ -9,6 +9,7 @@
 	// ============================================================
 
 	"core:christian" : {
+		"female" : true,
 		"texts" : {
 			"name" : "Marigold",
 			"biography" : "Marigold organizes the best picnics in Meadowbrook, and everyone is invited — everyone, including the time she set a place for a very confused badger. She believes almost any problem can be solved with a sandwich, a blanket, and enough lemonade, and so far she has never been wrong."
@@ -16,6 +17,7 @@
 	},
 
 	"core:sorsha" : {
+		"female" : true,
 		"texts" : {
 			"name" : "Sorsha-Jump",
 			"biography" : "Sorsha-Jump holds the neighborhood record for double-unders (312) and for fastest sprint to an ice-cream truck (unmeasurable). She pins her medals on crooked because she is already thinking about the next one. Her Friendship Circle trains by skipping everywhere they go, which is why they always arrive cheerful and slightly out of breath."
@@ -23,6 +25,7 @@
 	},
 
 	"core:valeska" : {
+		"female" : true,
 		"texts" : {
 			"name" : "Bea",
 			"biography" : "Bea speaks fluent bee, which is mostly waggling. Her three best friends are named Bumble, Mumble, and Roy. She never hurries anywhere — honey takes the time it takes, she says, and so do friendships. Bubble Blowers practice their aim by ringing bubbles gently around her bees, who pretend to mind."
@@ -30,6 +33,7 @@
 	},
 
 	"core:edric" : {
+		"female" : true,
 		"texts" : {
 			"name" : "Petal",
 			"biography" : "Petal is small, quiet, and at any given moment covered in approximately forty ladybugs, all of whom chose her. Nobody knows why the ladybugs love Petal. The ladybugs know. The Fluffy Kittens of Meadowbrook follow her everywhere, hoping to find out."
@@ -37,6 +41,7 @@
 	},
 
 	"core:sylvia" : {
+		"female" : true,
 		"texts" : {
 			"name" : "Captain Puddle",
 			"biography" : "Captain Puddle owns one yellow raincoat, one pair of excellent boots, and the finest sense of direction in Meadowbrook — she can find the way through any drizzle, downpour, or suspiciously deep puddle. The Ducklings consider her their queen. She takes the responsibility very seriously, and holds her enormous leaf-umbrella over whoever needs it most."
@@ -44,6 +49,7 @@
 	},
 
 	"core:lordHaart" : {
+		"female" : true,
 		"texts" : {
 			"name" : "Nan",
 			"biography" : "Nan has a cardigan with eleven pockets and something useful in every single one. She keeps the Cocoa House ledger, remembers everyone's birthday, and pays the best allowance in town for chores done kindly. Nobody has ever seen Nan surprised. It is widely suspected she knows the weather before the sky does."
@@ -51,6 +57,7 @@
 	},
 
 	"core:tyris" : {
+		"female" : true,
 		"texts" : {
 			"name" : "Juniper",
 			"biography" : "Juniper is tall, quiet, and always accompanied by her goose, Gunther, who disapproves of nearly everything. Juniper does not say much, because Gunther says plenty. Together they patrol the bridle paths at a dignified pace, on ponies Gunther has personally inspected and reluctantly approved."
@@ -58,6 +65,7 @@
 	},
 
 	"core:orrin" : {
+		"female" : true,
 		"texts" : {
 			"name" : "Twyla",
 			"biography" : "Twyla can spot a lost kite from three meadows away and names every star she meets. Her freckles glow faintly after dark, which she says is stardust, and no one has managed to disprove it. She keeps her telescope pointed at wherever the next adventure is coming from, so the whole Friendship Circle aims a little truer."
