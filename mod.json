@@ -1,0 +1,19 @@
+{
+	"name" : "Heroines of Might and Magic",
+	"description" : "A cozy total-conversion of Heroes III. Same beloved mechanics — exploration, weekly growth, town building — reimagined as a friendly world of neighborhoods, festivals, and befriending shy creatures. Phase 1: text conversion of creatures, spells, and factions. No battles, only Encounters!",
+	"version" : "0.1.0",
+	"author" : "Heroines Team",
+	"contact" : "https://github.com/REPLACE-WITH-YOUR-USERNAME/heroines-of-might-and-magic",
+	"modType" : "Expansion",
+	"language" : "english",
+
+	"creatures" : [
+		"config/heroines/creatures.json"
+	],
+	"spells" : [
+		"config/heroines/spells.json"
+	],
+	"factions" : [
+		"config/heroines/factions.json"
+	]
+}
