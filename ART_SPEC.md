@@ -46,7 +46,7 @@ Two sizes derive from one master each (generate once, downscale twice: large por
 | P06 | Nan | grandmotherly guide with cocoa mug, cardigan of many pockets, knowing smile |
 | P07 | Juniper | tall quiet girl with a pet goose (the goose looks skeptical) |
 | P08 | Twyla | girl with star-chart bandana, telescope, stardust freckles that faintly glow |
-| P09–P16 | reserved: Fluttergrove lineup | spec'd in Phase 2 when biographies are written |
+| P09–P16 | Meadowbrook Storykeepers (Clerics) | spec'd when their biographies are written; Fluttergrove moves to P17+ |
 
 ### 4.2 Creature icons, Meadowbrook (Tier A) — 14 images
 Small square icon per unit: bust/face only, centered, big readable silhouette.

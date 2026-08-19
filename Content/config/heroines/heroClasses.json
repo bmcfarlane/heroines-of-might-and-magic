@@ -1,0 +1,6 @@
+{
+	// Meadowbrook's two hero classes.
+	// Knight -> Neighborhood Guide, Cleric -> Storykeeper.
+	"core:knight" : { "name" : "Neighborhood Guide" },
+	"core:cleric" : { "name" : "Storykeeper" }
+}

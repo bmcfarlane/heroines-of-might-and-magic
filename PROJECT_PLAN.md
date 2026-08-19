@@ -17,7 +17,9 @@ Creature/spell/faction name overrides via `core:` specifiers. Meadowbrook (Castl
 - [ ] Console verification pass: least-confident creature IDs are `zombie`, `faerieDragon`, `efreet`; any load error → GitHub issue
 - [ ] All spells + spell descriptions at all skill levels
 - [ ] Building names + town name pools per neighborhood ("Griffin Tower" under Fluffy Kittens is the flagship dissonance)
-- [ ] Hero names, classes (Kindness/Cheer/Imagination/Curiosity flavor), biographies — 8 Heroines per neighborhood
+- [x] Meadowbrook Neighborhood Guides (Knights): 8 Heroines named + biographies (P01–P08)
+- [ ] Meadowbrook Storykeepers (Clerics): 8 more Heroines (P09–P16) — NOTE: factions have SIXTEEN heroes each, not eight (second counting correction)
+- [ ] Hero classes flavor for remaining neighborhoods; primary stats flavor (Kindness/Cheer/Imagination/Curiosity) pending translation-override research
 - [ ] Artifacts → Treasures (the Ribbon of Legion, the Cocoa Grail...)
 - [ ] Secondary skills flavor (Necromancy → Gardening description text)
 - [ ] Map object / bank / event strings
@@ -46,7 +48,8 @@ Encounter jingles, town themes per neighborhood, UI sounds. Ogg/Vorbis only (rep
 
 1. **2026-08-18 — Nine factions, not seven.** Early docs said seven; H3 Complete has nine. Inferno → Campfire Hollow, Necropolis → Dreamberry Hill.
 2. **2026-08-18 — Tone calibration ruling (Emily, design authority).** When a name choice trades between clever/atmospheric and cute/friendly, **cute wins**. Concretely: no moths, no Halloween-adjacent imagery (scarecrows/pumpkins/dusk-spooky), even when "technically gentle." Fluttergrove is butterflies and rainbows; Necropolis is a sleepover (Dreamberry Hill: pillow forts, teddies, Tooth Fairies, Snoring Cloud Dragons). This ruling governs all future text AND all Phase 3 art prompts.
-3. **2026-08-18 — Tone is decided empirically by human playtesters** (Emily, Bryan, eventually actual children), not by Claude's aesthetic judgment. Claude proposes; playtest disposes.
+3. **2026-08-18 — Claude ships the complete mod folder every time, never partial/delta zips.** A delta zip caused accidental deletion of Phase 1 files during extraction. Full folder or nothing.
+4. **2026-08-18 — Tone is decided empirically by human playtesters** (Emily, Bryan, eventually actual children), not by Claude's aesthetic judgment. Claude proposes; playtest disposes.
 
 ## Working agreement (human + Claude)
 
