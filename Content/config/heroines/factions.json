@@ -9,7 +9,7 @@
 	"core:rampart" :    { "name" : "Fluttergrove" },
 	"core:tower" :      { "name" : "Sweetshop Lane" },
 	"core:inferno" :    { "name" : "Campfire Hollow" },
-	"core:necropolis" : { "name" : "The Night Garden" },
+	"core:necropolis" : { "name" : "Dreamberry Hill" },
 	"core:dungeon" :    { "name" : "Music Quarter" },
 	"core:stronghold" : { "name" : "Craft District" },
 	"core:fortress" :   { "name" : "Tidewhisper Cove" },

@@ -14,14 +14,14 @@
 	"core:battleDwarf" :      { "name" : { "singular" : "Oak Gnome",             "plural" : "Oak Gnomes" } },
 	"core:woodElf" :          { "name" : { "singular" : "Butterfly Catcher",     "plural" : "Butterfly Catchers" } },
 	"core:grandElf" :         { "name" : { "singular" : "Butterfly Whisperer",   "plural" : "Butterfly Whisperers" } },
-	"core:pegasus" :          { "name" : { "singular" : "Moth Pony",             "plural" : "Moth Ponies" } },
-	"core:silverPegasus" :    { "name" : { "singular" : "Moonbeam Moth Pony",    "plural" : "Moonbeam Moth Ponies" } },
+	"core:pegasus" :          { "name" : { "singular" : "Butterfly Pony",        "plural" : "Butterfly Ponies" } },
+	"core:silverPegasus" :    { "name" : { "singular" : "Rainbow Butterfly Pony","plural" : "Rainbow Butterfly Ponies" } },
 	"core:dendroidGuard" :    { "name" : { "singular" : "Hugging Tree",          "plural" : "Hugging Trees" } },
 	"core:dendroidSoldier" :  { "name" : { "singular" : "Grandmother Willow",    "plural" : "Grandmother Willows" } },
 	"core:unicorn" :          { "name" : { "singular" : "Dream Deer",            "plural" : "Dream Deer" } },
 	"core:warUnicorn" :       { "name" : { "singular" : "Starlit Dream Deer",    "plural" : "Starlit Dream Deer" } },
 	"core:greenDragon" :      { "name" : { "singular" : "Very Gentle Caterpillar", "plural" : "Very Gentle Caterpillars" } },
-	"core:goldDragon" :       { "name" : { "singular" : "Luna Moth Queen",       "plural" : "Luna Moth Queens" } },
+	"core:goldDragon" :       { "name" : { "singular" : "Butterfly Queen",       "plural" : "Butterfly Queens" } },
 
 	// ---------- SWEETSHOP LANE (was Tower) ----------
 	"core:gremlin" :          { "name" : { "singular" : "Kitchen Helper",        "plural" : "Kitchen Helpers" } },
@@ -55,23 +55,24 @@
 	"core:devil" :            { "name" : { "singular" : "Bonfire Buddy",         "plural" : "Bonfire Buddies" } },
 	"core:archDevil" :        { "name" : { "singular" : "Grand Bonfire Buddy",   "plural" : "Grand Bonfire Buddies" } },
 
-	// ---------- THE NIGHT GARDEN (was Necropolis) ----------
-	// Gentlest possible reading of the spooky town: autumn garden
-	// at dusk. Nothing undead — everything cozy-nocturnal.
-	"core:skeleton" :         { "name" : { "singular" : "Scarecrow",             "plural" : "Scarecrows" } },
-	"core:skeletonWarrior" :  { "name" : { "singular" : "Fancy Scarecrow",       "plural" : "Fancy Scarecrows" } },
-	"core:walkingDead" :      { "name" : { "singular" : "Pumpkin Pal",           "plural" : "Pumpkin Pals" } },
-	"core:zombie" :           { "name" : { "singular" : "Prize Pumpkin Pal",     "plural" : "Prize Pumpkin Pals" } },
-	"core:wight" :            { "name" : { "singular" : "Dandelion Puff",        "plural" : "Dandelion Puffs" } },
-	"core:wraith" :           { "name" : { "singular" : "Wishing Puff",          "plural" : "Wishing Puffs" } },
-	"core:vampire" :          { "name" : { "singular" : "Fruit Bat",             "plural" : "Fruit Bats" } },
-	"core:vampireLord" :      { "name" : { "singular" : "Orchard Fruit Bat",     "plural" : "Orchard Fruit Bats" } },
-	"core:lich" :             { "name" : { "singular" : "Autumn Gardener",       "plural" : "Autumn Gardeners" } },
-	"core:powerLich" :        { "name" : { "singular" : "Head Autumn Gardener",  "plural" : "Head Autumn Gardeners" } },
-	"core:blackKnight" :      { "name" : { "singular" : "Moonlight Rider",       "plural" : "Moonlight Riders" } },
-	"core:dreadKnight" :      { "name" : { "singular" : "Midnight Rider",        "plural" : "Midnight Riders" } },
-	"core:boneDragon" :       { "name" : { "singular" : "Driftwood Dragon",      "plural" : "Driftwood Dragons" } },
-	"core:ghostDragon" :      { "name" : { "singular" : "Morning-Mist Dragon",   "plural" : "Morning-Mist Dragons" } },
+	// ---------- DREAMBERRY HILL (was Necropolis) ----------
+	// The sleepover neighborhood: blanket forts, teddy bears,
+	// nightlights, and the world's sleepiest dragons. Nothing
+	// spooky — bedtime is the coziest hour of the day.
+	"core:skeleton" :         { "name" : { "singular" : "Pillow-Fort Builder",   "plural" : "Pillow-Fort Builders" } },
+	"core:skeletonWarrior" :  { "name" : { "singular" : "Master Pillow-Fort Builder", "plural" : "Master Pillow-Fort Builders" } },
+	"core:walkingDead" :      { "name" : { "singular" : "Sleepy Teddy",          "plural" : "Sleepy Teddies" } },
+	"core:zombie" :           { "name" : { "singular" : "Extra-Snuggly Teddy",   "plural" : "Extra-Snuggly Teddies" } },
+	"core:wight" :            { "name" : { "singular" : "Nightlight",            "plural" : "Nightlights" } },
+	"core:wraith" :           { "name" : { "singular" : "Star Nightlight",       "plural" : "Star Nightlights" } },
+	"core:vampire" :          { "name" : { "singular" : "Tooth Fairy",           "plural" : "Tooth Fairies" } },
+	"core:vampireLord" :      { "name" : { "singular" : "Head Tooth Fairy",      "plural" : "Head Tooth Fairies" } },
+	"core:lich" :             { "name" : { "singular" : "Dream Librarian",       "plural" : "Dream Librarians" } },
+	"core:powerLich" :        { "name" : { "singular" : "Head Dream Librarian",  "plural" : "Head Dream Librarians" } },
+	"core:blackKnight" :      { "name" : { "singular" : "Pillow Knight",         "plural" : "Pillow Knights" } },
+	"core:dreadKnight" :      { "name" : { "singular" : "Grand Pillow Knight",   "plural" : "Grand Pillow Knights" } },
+	"core:boneDragon" :       { "name" : { "singular" : "Cloud Dragon",          "plural" : "Cloud Dragons" } },
+	"core:ghostDragon" :      { "name" : { "singular" : "Snoring Cloud Dragon",  "plural" : "Snoring Cloud Dragons" } },
 
 	// ---------- MUSIC QUARTER (was Dungeon) ----------
 	"core:troglodyte" :         { "name" : { "singular" : "Little Drummer",      "plural" : "Little Drummers" } },
