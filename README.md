@@ -19,16 +19,17 @@ A cozy total-conversion mod for [VCMI](https://vcmi.eu), the open-source Heroes 
 3. Open the VCMI Launcher, find "Heroines of Might and Magic" in the mod list, and enable it.
 4. Start a new game. Welcome to Meadowbrook.
 
-## What works in v0.1 (Phase 1: The Great Renaming)
+## What works in v0.2 (Phase 2 in progress)
 
-- Castle faction fully converted to **Meadowbrook** (Ducklings through Rainbow Unicorns)
-- All seven factions renamed to neighborhoods
+- All **nine** neighborhoods named (Meadowbrook, Fluttergrove, Sweetshop Lane, Campfire Hollow, Dreamberry Hill, Music Quarter, Craft District, Tidewhisper Cove, Starlight Observatory)
+- All ~139 creatures renamed — every faction lineup plus neutral map friends
 - A starter set of spells converted to Songs & Games
-- Everything else is stock HoMM3 — by design, we convert in layers and the game stays playable at every commit
+- Original sprites/portraits still show (art is Phase 3); combat verbs like "perishes" still stock (translation override in progress)
+- Everything converts in layers and the game stays playable at every commit
 
 ## Roadmap
 
-- **Phase 2 — Full text pass:** every creature, hero biography, artifact, map object description, and campaign string. Combat verbs ("attacks", "perishes") need engine translation-file overrides — tracked in issues.
+- **Phase 2 — Full text pass (in progress):** creatures ✅. Still to do: hero names/biographies, spell descriptions, artifacts, building names, town name pools, map object strings, and combat verbs ("attacks", "perishes") via engine translation-file overrides — tracked in issues.
 - **Phase 3 — Art:** creature sprites (VCMI accepts PNG frame sets via its JSON [Animation Format](https://vcmi.eu/modders/Animation_Format/), no .def tooling needed), town screens, terrain recolors toward a pastel palette.
 - **Phase 4 — Sound & music:** encounter jingles instead of battle music (Ogg/Vorbis, per repo rules).
 - **Phase 5 — Custom content:** the Grand Festival Grounds grail building, Week of the Ladybugs event pool, Cocoa House rumor strings, and eventually fully custom neighborhood factions rather than renames.

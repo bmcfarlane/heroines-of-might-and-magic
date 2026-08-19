@@ -10,6 +10,7 @@ This document is the single source of truth for every PNG in the project. Read Â
 Rules:
 - **One style block, forever.** Consistency across 200+ assets comes from never editing this paragraph. If we want a style change, we version it (STYLE v2) and regenerate *everything* affected. No mixing.
 - **Palette anchor:** when a specific asset needs extra colors (a red ladybug), they're *added to* the block for that asset, never substituted.
+- **Tone ruling (2026-08-18, binding):** cute beats atmospheric, always. No moths, no Halloween-adjacent motifs (scarecrows, pumpkins, spooky dusk). Dreamberry Hill art is sleepover-cozy: pillow forts, teddies, nightlights, warm lamplight. If a prompt could be read as "hauntingly beautiful," rewrite it until it reads "huggable."
 - **Outline color** is dark brown (#3D2B1F-ish), never black â€” black outlines read "harsh" at small sizes against pastel fills.
 
 ## 2. Engine constraints (why the specs below look the way they do)

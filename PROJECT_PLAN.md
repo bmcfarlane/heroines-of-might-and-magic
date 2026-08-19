@@ -12,9 +12,11 @@
 ### Phase 1 — The Great Renaming ✅ (v0.1.0, shipped)
 Creature/spell/faction name overrides via `core:` specifiers. Meadowbrook (Castle) fully renamed.
 
-### Phase 2 — Full Text Pass (v0.2.x)
-- [ ] Remaining six factions' creature lineups renamed
+### Phase 2 — Full Text Pass (v0.2.x, in progress)
+- [x] All nine factions' creature lineups renamed (~139 creatures incl. neutrals) — pending console ID verification
+- [ ] Console verification pass: least-confident creature IDs are `zombie`, `faerieDragon`, `efreet`; any load error → GitHub issue
 - [ ] All spells + spell descriptions at all skill levels
+- [ ] Building names + town name pools per neighborhood ("Griffin Tower" under Fluffy Kittens is the flagship dissonance)
 - [ ] Hero names, classes (Kindness/Cheer/Imagination/Curiosity flavor), biographies — 8 Heroines per neighborhood
 - [ ] Artifacts → Treasures (the Ribbon of Legion, the Cocoa Grail...)
 - [ ] Secondary skills flavor (Necromancy → Gardening description text)
@@ -39,6 +41,12 @@ Encounter jingles, town themes per neighborhood, UI sounds. Ogg/Vorbis only (rep
 - Cocoa House rumor string pool
 - Tutorial map: "The Goose on the Bridge" (map editor deliverable)
 - Stretch: true custom factions replacing renames; Encounter verb overhaul if engine/Lua allows
+
+## Design decisions log (binding; future sessions read this first)
+
+1. **2026-08-18 — Nine factions, not seven.** Early docs said seven; H3 Complete has nine. Inferno → Campfire Hollow, Necropolis → Dreamberry Hill.
+2. **2026-08-18 — Tone calibration ruling (Emily, design authority).** When a name choice trades between clever/atmospheric and cute/friendly, **cute wins**. Concretely: no moths, no Halloween-adjacent imagery (scarecrows/pumpkins/dusk-spooky), even when "technically gentle." Fluttergrove is butterflies and rainbows; Necropolis is a sleepover (Dreamberry Hill: pillow forts, teddies, Tooth Fairies, Snoring Cloud Dragons). This ruling governs all future text AND all Phase 3 art prompts.
+3. **2026-08-18 — Tone is decided empirically by human playtesters** (Emily, Bryan, eventually actual children), not by Claude's aesthetic judgment. Claude proposes; playtest disposes.
 
 ## Working agreement (human + Claude)
 
